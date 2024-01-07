@@ -81,10 +81,8 @@ nav a {
   max-width: 500px;
 }
 /* main section */
-main{
-   
-    margin: 0 auto; 
-
+main {
+  margin: 0 auto;
 }
 /* about section */
 .about {
@@ -100,18 +98,50 @@ main{
   font-weight: 700;
   line-height: normal;
 }
-.section-description{
-    color: #757575;
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
 }
-.about-info{
-    text-align: center;
-    padding: 5px;
+.about-info {
+  text-align: center;
+  padding: 5px;
 }
-.about-info-container{
-    display: flex;
-    justify-content: space-around;
-} 
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+#what-i {
+  padding: 30px 150px;
+}
+/* skills related */
+.skills-container {
+  display: flex;
+  margin: 0 auto;
+}
+.skill-description {
+  color: #757575;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.skill {
+  padding: 80px;
+  gap: 15px;
+  align-items: center;
+  margin: 20px 30px;
+  border-radius: 5px;
+  background: #54bcf02f;
+  box-shadow: 0px 6px 50px 0px rgba(27, 23, 23, 0.06);
+}
+.section-title {
+  margin: 0 auto;
+}
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+}
