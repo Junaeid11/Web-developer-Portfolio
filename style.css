@@ -145,3 +145,17 @@ main {
   font-size: 30px;
   font-weight: 700;
 }
+.resume-container {
+  display: flex;
+  gap: 55px;
+  padding: 20px 150px;
+}
+.resume-item-description , .resume-item-institute{
+
+color: #757575;}
+.resume-item-title{
+    color: #474747;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+}
