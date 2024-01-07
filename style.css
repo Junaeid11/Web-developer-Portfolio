@@ -21,6 +21,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 .noob {
   font-size: 45px;
@@ -37,4 +38,18 @@ nav li {
 nav a {
   text-decoration: none;
   color: #181818;
+}
+/* header related style */
+.header{
+    background-color: aliceblue;
+}
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+.profile{
+    height: 600px;
+    width: 700px;
+
 }
