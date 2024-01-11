@@ -199,5 +199,52 @@ width: 100%;
 .social-link a{
   align-items: center;
   justify-content: center;
-  margin-right: 25px;
+  margin-right: 50px;
 }
+
+/* responsive */
+.hide{
+  display: none;
+}
+
+/* mobile device */
+
+@media screen and (max-width:576px){
+  nav,
+  nav>ul,.banner,.skills-container ,.resume-container, footer
+  ,.about-info-container{
+    flex-direction: column;
+  }
+  .header{
+    background-color: none;
+  }
+.banner,.profile{
+  width: 100%;
+}
+  .banner,#what-i{
+   padding: 10px; 
+  }
+  nav>ul{
+    gap: 10px;
+  }
+  footer,.about{
+    padding: 10px;
+  }
+  .btn-primary{
+    margin-bottom: 15px;
+  }
+  .footer-column{
+    width: 100%;
+  }
+  .contact ,textarea{
+    width: 70%;
+  }
+
+
+
+}
+@media screen and (min-width:576px) and (max-width:990px)
+{
+
+}
+
